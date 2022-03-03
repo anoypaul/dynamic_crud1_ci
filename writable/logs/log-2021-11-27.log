@@ -1,0 +1,962 @@
+ERROR - 2021-11-27 04:43:01 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:43:01 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:43:20 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:43:20 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:46:54 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:46:54 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:50:11 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:50:11 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:50:49 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:50:49 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:50:51 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:50:51 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:57:15 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:57:15 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:57:16 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:57:16 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:57:30 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:57:30 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:57:37 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:57:37 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:57:38 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:57:38 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:58:16 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:58:16 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:58:17 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:58:17 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 04:58:18 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 04:58:18 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:00:03 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:00:03 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:00:04 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:00:04 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:00:09 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:00:09 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:00:13 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:00:13 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 05:04:37 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 05:04:39 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 05:07:31 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 05:08:40 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 05:08:41 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 05:09:01 --> Argument 2 passed to view() must be of the type array, null given, called in C:\wamp64\www\project1\app\Controllers\EmployeeController.php on line 9
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): view('employee/index', NULL)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+ERROR - 2021-11-27 05:11:33 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:11:33 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:14:59 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:14:59 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:17:37 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:17:37 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:17:38 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:17:38 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:21:30 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:21:30 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:30:05 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:30:06 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 05:30:08 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 05:30:08 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 10:25:29 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 10:25:29 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 12:24:25 --> Cannot redeclare App\Controllers\EmployeeController::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-27 12:24:27 --> Cannot redeclare App\Controllers\EmployeeController::index()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-11-27 13:50:35 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:50:35 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 13:50:56 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:50:56 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 13:58:27 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:58:28 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 13:58:29 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:58:29 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 13:58:54 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:58:55 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 13:58:56 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 13:58:56 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:01:25 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:01:26 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:01:26 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:01:26 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:04:34 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:04:35 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:08:31 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:08:31 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:08:33 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:08:33 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:14:19 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:14:20 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:20:57 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-27 14:20:58 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-27 14:22:55 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-27 14:22:58 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-27 14:23:00 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+CRITICAL - 2021-11-27 14:23:01 --> You must set the database table to be used with your query.
+#0 C:\wamp64\www\project1\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\wamp64\www\project1\system\Model.php(176): CodeIgniter\Model->builder()
+#2 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#3 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#4 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#9 {main}
+ERROR - 2021-11-27 14:24:00 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:24:00 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:24:01 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:24:01 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:25 --> Class 'CodeIgniter\Models' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:26 --> Class 'CodeIgniter\Models' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:52 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:54 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:55 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:26:57 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:28:45 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:28:46 --> Class 'App\Models\Model' not found
+#0 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Empl...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Empl...')
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(7): spl_autoload_call('App\\Models\\Empl...')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 14:29:07 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 14:29:07 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+CRITICAL - 2021-11-27 14:39:44 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 14:39:45 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 14:39:46 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 14:39:54 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 14:40:05 --> Call to undefined function App\Controllers\getRecords()
+#0 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#5 {main}
+CRITICAL - 2021-11-27 14:40:16 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 22:07:40 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 22:08:01 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 22:13:50 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2021-11-27 22:13:52 --> Call to undefined method App\Models\Employee::getRecords
+#0 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(9): CodeIgniter\Model->__call('getRecords', Array)
+#1 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#2 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#3 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#6 {main}
+ERROR - 2021-11-27 22:16:16 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:16:16 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 22:18:19 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:18:19 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 22:18:58 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:18:58 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 22:18:59 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:18:59 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 22:19:06 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:19:06 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 22:20:06 --> Error connecting to the database: The server requested authentication method unknown to the client
+CRITICAL - 2021-11-27 22:20:06 --> Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client
+#0 C:\wamp64\www\project1\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\project1\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\project1\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\project1\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(8): CodeIgniter\BaseModel->findAll()
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->index()
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
+ERROR - 2021-11-27 23:33:48 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:37:41 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:39:40 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:41:16 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:43:09 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:47:02 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:53:31 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:58:16 --> Column 'first_name' cannot be null
+ERROR - 2021-11-27 23:59:46 --> Column 'first_name' cannot be null

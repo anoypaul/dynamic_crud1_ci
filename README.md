@@ -1,2 +1,2 @@
-# dynamic_crud1_ci
-Using DataTables in crud operation in Codeigniter 4
+# crud with datatables
+ Create a crud project with datatables

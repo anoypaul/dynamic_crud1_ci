@@ -1,0 +1,12 @@
+CRITICAL - 2022-02-16 15:21:50 --> Undefined variable: employee
+#0 C:\wamp64\www\project1\app\Views\employee\edit.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\p...', 127, Array)
+#1 C:\wamp64\www\project1\system\View\View.php(214): include('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\project1\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\project1\system\Common.php(1097): CodeIgniter\View\View->render('employee/edit', Array, true)
+#4 C:\wamp64\www\project1\app\Controllers\EmployeeController.php(94): view('employee/edit')
+#5 C:\wamp64\www\project1\system\CodeIgniter.php(824): App\Controllers\EmployeeController->edit('22')
+#6 C:\wamp64\www\project1\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\wamp64\www\project1\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\project1\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\project1\system\Commands\Server\rewrite.php(43): require_once('C:\\wamp64\\www\\p...')
+#10 {main}
